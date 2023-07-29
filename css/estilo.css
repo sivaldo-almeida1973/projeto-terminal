@@ -26,7 +26,7 @@ a:hover {
 /* logo museu nacional flutua a esquerda
 =========================================*/
 #logo h1 {
-    border: 1px solid white;
+   
     float: left;
 }
 
@@ -52,7 +52,7 @@ header {
 
 
 nav ul {
-    border: 1px solid red;
+  
     list-style: none;/*tira os pontinohs da lista*/
     float: right; /*flutua a lista inteira*/
 }
@@ -79,7 +79,7 @@ nav ul li a:hover {
 /*formatação principal
 ==========================*/
 #principal {
-    border: 1px solid red;
+   
     color: #227115;
     clear: both;
    
@@ -93,7 +93,7 @@ nav ul li a:hover {
 
 aside {
     width: 350px;
-    border: 1px solid white;
+  
     background: #ebe7dd;
     float: right;
     padding-bottom: 30px;
