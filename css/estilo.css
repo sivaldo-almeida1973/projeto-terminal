@@ -1,0 +1,160 @@
+/*estrutura do site --------------*/
+
+body {
+    background: #f4f2ec url(../imagem/fundo.png) repeat-x ;
+    font: 12px "Lucida Grande", "Lucinda Sans Unicode" , Arial, sans-serif;
+  
+}
+
+#container {
+    width: 1080px;/*padrao bom tamaho para videos*/
+    margin: auto;
+   
+}
+
+/*formatação geral dos links
+================================================*/
+
+a:link ,a:active, a:visited {
+    color: #af670a;
+    text-decoration: dashed;/*tira barra dos links*/
+}
+a:hover {
+    color: #227115;
+}
+
+/* logo museu nacional flutua a esquerda
+=========================================*/
+#logo h1 {
+    border: 1px solid white;
+    float: left;
+}
+
+/* logo museu nacional contem h1 que contem a
+=========================================*/
+#logo a {
+   
+    width: 248px;
+    height: 21px;
+    text-indent: -999px;
+    display: block;
+    background: url(../imagem/logo.png) no-repeat;
+   
+}
+
+/*barra de navegação
+----------------------------------------------------*/
+
+header {
+    padding: 15px 0;
+    height: 55px;
+}
+
+
+nav ul {
+    border: 1px solid red;
+    list-style: none;/*tira os pontinohs da lista*/
+    float: right; /*flutua a lista inteira*/
+}
+
+nav ul li {
+    float: left; /*flutua os itens lado a lado*/
+    
+}
+
+nav ul li a:link {
+    
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+
+
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid #535858;
+}
+
+/*formatação principal
+==========================*/
+#principal {
+    border: 1px solid red;
+    color: #227115;
+    clear: both;
+   
+}
+#conteudo {
+  
+    width: 710px;
+    float: left;
+    
+}
+
+aside {
+    width: 350px;
+    border: 1px solid white;
+    background: #ebe7dd;
+    float: right;
+    padding-bottom: 30px;
+}
+
+section#visita {
+    background: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+
+
+section#galeria{
+    padding: 0 27px 0 27px;
+}
+/*colcar imagem atras da foto=========*/
+section#galeria a {
+    display: block;/*ficara um abaixo do outro*/
+    background: url(../imagem/fundo-foto.png) no-repeat;
+    float: left;
+    padding: 17px 15px 17px 15px;/*ajuad colocar um ao lado do outro*/
+    margin: 10px 0 0 20px;
+}
+section#galeria img {
+    margin-left: 2px;
+    margin-top: 4px;
+}
+
+h4 {
+    color: #87521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+
+/* formularios =====================*/
+input {
+    height: 20px;
+    width: 80px;
+    background: #fff;
+    border: none;
+    font-size: 1em;
+  
+   
+}
+
+input.campo {
+    border:1px solid #ada484 ;
+}
+input.botao {
+    border:1px solid #908e87 ;
+    color: white;
+    background: #b7a082;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+}
+
+fieldset {
+    border: none;
+}
+legend {
+    display: none;/*faz desaparecer o item*/
+}
